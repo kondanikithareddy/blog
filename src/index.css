@@ -90,3 +90,26 @@ button:focus-visible {
   text-decoration: none;
   color: #666;
 }
+
+.dark-mode {
+  background-color: #333;
+  color: #f8f9fa;
+}
+
+.dark-mode a {
+  color: #f8f9fa;
+}
+
+@media (max-width: 600px) {
+  .blog-header nav ul {
+    flex-direction: column;
+  }
+}
+
+.blog-header nav a {
+  transition: color 0.3s ease;
+}
+
+.blog-header nav a:hover {
+  color: #007bff;
+}
